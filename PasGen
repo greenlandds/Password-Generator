@@ -1,0 +1,16 @@
+import streamlit as streamlit
+import random
+
+char_set_1 =  '123456789'
+
+
+st.title('Password Generator')
+
+col1, col2 = st.colum(2)
+
+with coli:
+    is_mobile = st.checkbox('Mobile Friendly', value=True)
+    length = st.slider('Password length', value=10, max_value=20)
+
+    with col2:
+        char_set_1 = st.text_input('Specials')
